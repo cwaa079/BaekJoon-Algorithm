@@ -40,6 +40,6 @@ while(True):
         R()
     else: #C연산
         ary = list(map(list, zip(*ary)))
-        R()
+        R() 
         ary = list(map(list, zip(*ary)))
     t += 1
