@@ -2,6 +2,7 @@
 #스타트링크
 #BFS
 
+from collections import deque
 f, s, g, u, d = map(int, input().split())
 cnt = [-1] * (f+1)
 
