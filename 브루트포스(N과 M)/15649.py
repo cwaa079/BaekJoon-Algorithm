@@ -1,3 +1,6 @@
+#https://www.acmicpc.net/problem/15649
+#N과 M(2)
+
 def solution(n, m):
     s = []
 
