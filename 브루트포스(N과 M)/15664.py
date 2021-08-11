@@ -1,6 +1,11 @@
 #https://www.acmicpc.net/problem/15664
 #N과 M(10)
 
+'''
+한번에 하나의 수 -> 방문처리중
+중복된 수열X -> used함수를 통해 일일히 확인
+비내림차순 -> depth로 이전 수와 현재 수 비교
+'''
 def solution(n, m, arr):
     visited = [False for _ in range(n)]
     arr.sort()
