@@ -6,6 +6,7 @@
 중복된 수열X -> used함수를 통해 일일히 확인
 비내림차순 -> depth로 이전 수와 현재 수 비교
 '''
+
 def solution(n, m, arr):
     visited = [False for _ in range(n)]
     arr.sort()
